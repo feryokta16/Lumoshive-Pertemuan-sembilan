@@ -1,0 +1,51 @@
+body {
+  padding: 0 5%;
+}
+
+.head button {
+  padding: 10px 20px;
+  width: 18%;
+  background-color: aqua;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+h1 {
+  align-items: center;
+  text-align: center;
+}
+.input-grup {
+  width: 100%;
+}
+
+.head input {
+  width: 80%;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+}
+.user-card {
+  text-align: center;
+  padding: 10px;
+  background-color: aqua;
+}
+.user-card img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.user-info {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .head input {
+    width: 75%;
+  }
+}
